@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, red,yellow);
+}
+
+.app {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0 3.9px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  color: #E53935;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
